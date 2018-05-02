@@ -11,7 +11,7 @@
   <description>Prime numbers for Java.</description>
   <url>https://github.com/scravy/primes4j</url>
 
-  <version>1</version>
+  <version>2</version>
   <packaging>jar</packaging>
 
   <properties>
