@@ -11,8 +11,8 @@ import java.util.zip.GZIPInputStream;
 public final class Primes extends AbstractList<Integer> implements IntFunction<Integer>, RandomAccess {
 
   private static long isqrt(final long n) {
-    long sqrt = (long) Math.sqrt(n);
-    long square = sqrt * sqrt;
+    final long sqrt = (long) Math.sqrt(n);
+    final long square = sqrt * sqrt;
     if (n < square) {
       return sqrt - 1;
     }
